@@ -1,8 +1,8 @@
 import {user} from "../models/user.js";
 import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
+
 import {sendCookie} from "../utils/features.js";
-import cookieParser from "cookie-parser";
+
 import ErrorHandler from "../middlewares/error.js";
 
 
